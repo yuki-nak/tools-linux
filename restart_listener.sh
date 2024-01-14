@@ -23,3 +23,6 @@ if [ $LISTENER_STATUS -eq 0 ]; then
 else
     echo "Listener is already running."
 fi
+
+#Set cron job for execution every one minute.
+#* * * * * . $HOME/.bashrc; /home/oracle/restart_listener.sh
