@@ -25,4 +25,4 @@ else
 fi
 
 #Set cron job for execution every minute.
-#* * * * * . $HOME/.bashrc; /home/oracle/restart_listener.sh
+# * * * * * /bin/bash /home/oracle/restart_listener.sh
